@@ -8,7 +8,16 @@
 
 <title>福祉任意団体 みらいの手</title>
 
-<link rel="stylesheet" href="./dist/output.css">
+<link id="site-stylesheet" rel="stylesheet" href="/dist/output.css">
+<script>
+    const stylesheet = document.getElementById("site-stylesheet")
+
+    if (window.location.protocol === "file:") {
+        stylesheet.href = "../dist/output.css"
+    } else if (window.location.hostname === "mevius-lavita.github.io") {
+        stylesheet.href = "/lasvita/dist/output.css"
+    }
+</script>
 
 </head>
 
