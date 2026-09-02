@@ -1,9 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"], // 変更箇所
+  content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: [
+          "Noto Sans JP",
+          "Hiragino Kaku Gothic ProN",
+          "Yu Gothic",
+          "Meiryo",
+          "sans-serif",
+        ],
+      },
+    },
   },
   plugins: [],
 }
-
