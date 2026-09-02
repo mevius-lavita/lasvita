@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/mevius-lavita/lasvita/issues"
   },
-  "homepage": "https://github.com/mevius-lavita/lasvita#readme",
+  "homepage": "https://mevius-lavita.github.io/lasvita/",
   "devDependencies": {
     "autoprefixer": "^10.5.4",
     "postcss": "^8.5.26",
